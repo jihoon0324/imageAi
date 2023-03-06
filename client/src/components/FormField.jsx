@@ -1,6 +1,15 @@
 import React from "react";
 
-const FormField = () => {
+const FormField = ({
+  labelName,
+  type,
+  name,
+  placeholder,
+  value,
+  handleChange,
+  isSurpriseMe,
+  handleSurpriseMe,
+}) => {
   return <div>FormFiled</div>;
 };
 
