@@ -104,7 +104,7 @@ const CreatePost = () => {
           </div>
         </div>
 
-        {/* <div className="mt-5 flex gap-5">
+        <div className="mt-5 flex gap-5">
           <button
             type="button"
             onClick={generateImage}
@@ -125,7 +125,7 @@ const CreatePost = () => {
           >
             {loading ? "Sharing..." : "Share with the Community"}
           </button>
-        </div> */}
+        </div>
       </form>
     </section>
   );
